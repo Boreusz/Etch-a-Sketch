@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch a Sketch</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+        <script type="text/javascript" src="script.js" defer></script>
+    </head>
+    <body>
+        <div id="buttons">
+            <h1> Etch and Sketch: </h1>        
+            <button class="btn" onclick="createPad(8)">8 Karat</button>
+            <button class="btn" onclick="createPad(16)">16 Karat</button>
+            <button class="btn" onclick="createPad(24)">24 Karat</button>
+            <button class="btn" id="custom">Custom</button>
+            <button class="btn" onclick="clearPad()">Clear</button>
+        </div>
+        <div id="container"></div>
+    </body>
+</html>

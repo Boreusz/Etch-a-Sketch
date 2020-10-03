@@ -1,0 +1,39 @@
+body{
+    background-color:#ffdb10;
+    width: 100%;
+    text-align: center;
+}
+h1{
+margin-bottom: 40px;
+color: rgb(65, 65, 65);
+}
+#buttons{
+    text-align: center;
+    margin-top:  80px;
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 37px;
+
+    border-width: 2px;
+    border-color: #b3dbf1;
+    border-radius: 10px;
+
+    margin-right: 15px;
+
+    font-size: large;
+    font-weight: 500;
+    color: rgb(65, 65, 65);
+}
+
+#container{
+    background-color: #11a8ee;
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+
+}
